@@ -1,0 +1,96 @@
+
+
+
+.btn{
+  border-radius: 0 !important;
+}
+/* header */
+header{
+  height: 80vh;
+  min-height: 300px;
+  background-size: cover;
+  background-image: url(/Assets/img/background.webp);
+}
+header .text{
+ padding-top: 10rem !important;
+ padding-left: 5rem !important; 
+}
+header .text h2{
+  color: #fff;
+  font-size: 2.5rem;
+}
+header .text P{
+  color: #fff;
+}
+header .text button{
+  background:#682ddf ;
+  color: #fff;
+}
+
+/* navbar */
+.navbar h3{
+  background:#682ddf;
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.navbar .nav-item .nav-link{
+  color: #fff;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+
+/* about*/
+#about{
+  background: #f8f5f5 !important;
+}
+#about .img img{
+  height: 60vh ;
+  width: 80vh ;
+}
+#about .text button{
+  background: #682ddf;
+  color: #fff;
+}
+
+/* about 2 */
+#about2{
+  background: #f8f5f5 !important;
+  padding-top: 7rem;
+}
+#about2 .img img{
+  height: 60vh ;
+  width: 80vh ;
+}
+#about2 .text button{
+  background: #682ddf;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:520px){
+  /* header */
+  header .text{
+    padding-top: 8rem !important;
+    padding-left: 5rem !important; 
+   }
+
+
+ /* about */
+ #about .img img{
+  height: 40vh ;
+  width: 50vh ;
+}
+
+/* about2 */
+ #about2 .img img{
+  height: 40vh ;
+  width: 50vh ;
+}
+
+
+
+  
+  
+  
+}
